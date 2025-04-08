@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Hobi Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('Tbi1.jpg') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        .photo-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .photo-container {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 40px;
+            padding: 10px;
+            width: 250px;
+        }
+
+        .photo-container img {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 10%;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .photo-container img:hover {
+            transform: scale(1.1);
+        }
+
+        .photo-container img:active {
+            transform: scale(1.2);
+        }
+
+        .photo-container p {
+            color: white;
+            margin-top: 10px;
+        }
+
+        .hobi-cerita {
+            margin-top: 40px;
+            text-align: left;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 25px;
+            border-radius: 20px;
+        }
+
+        .hobi-cerita h2 {
+            color: #f4a261;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            color: #f4a261;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Profil</a></li>
+            <li><a href="personal.html">Personal</a></li>
+            <li><a href="keluarga.html">Keluarga</a></li>
+            <li><a href="teman.html">Teman</a></li>
+            <li><a href="hobi.html">Hobi</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Hobi</h1>
+        <p>Berikut adalah beberapa hobi saya yang sangat saya nikmati dalam kehidupan sehari-hari.</p>
+
+        <div class="photo-grid">
+            <div class="photo-container">
+                <img src="futsal.png" alt="Futsal">
+            </div>
+            <div class="photo-container">
+                <img src="badmntn.jpg" alt="Badminton">
+            </div>
+            <div class="photo-container">
+                <img src="gitar.jpeg" alt="Gitar">
+            </div>
+        </div>
+
+        <div class="hobi-cerita">
+            <h2>Futsal</h2>
+            <p>
+                Sejak kecil, aku sudah menyukai futsal. Permainan ini memberiku tantangan dan menjadi cara untuk melepaskan emosi. 
+                Aku biasanya bermain dengan siapa saja yang suka futsal, baik itu teman lama atau baru. 
+                Posisi favoritku adalah flank atau anchor. Salah satu pengalaman yang paling membanggakan adalah saat membawa kelasku menjadi juara dalam OSISCUP di sekolah. 
+                Futsal selalu membantuku lepas dari stres dan membuat pikiranku kembali segar.
+            </p>
+
+            <h2>Badminton</h2>
+            <p>
+                Hobi ini juga sudah aku gemari sejak kecil. Aku suka badminton karena mengandalkan refleks dan kecepatan. 
+                Aku biasanya bermain bersama teman-teman. Gaya bermainku bisa santai, tapi kalau lagi semangat, aku suka smash. 
+                Aku juga pernah ikut turnamen kecil, dan itu jadi pengalaman yang menyenangkan dan menantang.
+            </p>
+
+            <h2>Bermain Gitar</h2>
+            <p>
+                Aku mulai tertarik bermain gitar sejak SMP. Salah satu alasannya karena aku ingin bisa menyanyikan lagu tanpa harus menunggu orang lain yang memainkan gitar. 
+                Aku sering bermain gitar di rumah atau saat kumpul bareng teman-teman. Gaya mainku random aja, sesuai mood. 
+                Salah satu momen lucunya adalah waktu senar gitarku pernah putus pas lagi nyanyi rame-rame.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
